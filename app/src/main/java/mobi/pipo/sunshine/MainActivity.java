@@ -135,6 +135,8 @@ public class MainActivity extends AppCompatActivity {
                     "11"
             };
 
+            int a;
+
             List<String> weekForecast = new ArrayList<String>(Arrays.asList(forecastArray));
             ArrayAdapter list = new ArrayAdapter(getActivity(),
                     R.layout.list_item_forecast,
